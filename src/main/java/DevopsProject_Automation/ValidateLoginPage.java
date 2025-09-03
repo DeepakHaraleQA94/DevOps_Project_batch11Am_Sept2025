@@ -10,5 +10,6 @@ public class ValidateLoginPage {
 	public void test() {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.yessinfotech.com/");
+		driver.close();
 	}
 }

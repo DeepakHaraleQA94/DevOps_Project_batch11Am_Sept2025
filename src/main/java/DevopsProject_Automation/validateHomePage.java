@@ -10,5 +10,6 @@ public class validateHomePage {
 	public void test1() {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.yessinfotech.com/");
+		driver.close();
 	}
 }
